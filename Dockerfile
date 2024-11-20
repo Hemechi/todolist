@@ -1,6 +1,6 @@
 # Use an official OpenJDK runtime as the base image
 # Example if your project are using jdk17 then change its base image to version 17
-FROM maven:3.8.7-eclipse-temurin-19
+FROM maven:3.9.0-eclipse-temurin-19
 
 # Set the working directory inside the container
 WORKDIR /app
